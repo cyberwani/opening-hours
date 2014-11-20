@@ -10,11 +10,11 @@ Features include:
 
 ### Usage
 
-1. Install this plugin in your /mu-plugins/ directory
-2. Go to Settings > Opening hours and set up your periods
+1. Install this plugin in your `/mu-plugins/` directory
+2. Go to `Settings > Opening hours` and set up your periods
 3. Put the shortcode `[opening-hours]` in one of your pages
 4. Pick this page in the Settings tab
-5. Flush permalinks by visiting Settings > Permalinks
+5. Flush permalinks by visiting `Settings > Permalinks`
 
 ### Templates
 
