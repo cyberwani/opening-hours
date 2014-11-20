@@ -1,0 +1,40 @@
+.tab-wrapper {
+
+	div.tab-content {
+		display: none;
+
+		&.active {
+			display: block;
+		}
+	}
+
+}
+
+.tp-periods,
+.tp-special {
+
+	table {
+
+		th.actions {
+			width: 45px;
+		}
+
+	}
+
+}
+
+body.post-type-tp-periods,
+body.post-type-tp-special {
+
+	.add-new-h2,
+	#delete-action,
+	#minor-publishing-actions,
+	#misc-publishing-actions {
+		display: none;
+	}
+
+	#major-publishing-actions {
+		border-top: none;
+	}
+	
+}

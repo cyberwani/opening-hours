@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Opening hours\n"
+"POT-Creation-Date: 2014-11-20 15:51+0100\n"
+"PO-Revision-Date: 2014-11-20 15:52+0100\n"
+"Last-Translator: Harold <harold@trendwerk.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-tp-opening-hours-admin.php:26 class-tp-opening-hours-admin.php:38
+#: class-tp-opening-hours-admin.php:215 class-tp-opening-hours-admin.php:524
+#: class-tp-opening-hours-admin.php:754 class-tp-opening-hours-widget.php:10
+#: templates/table.php:22
+msgid "Opening hours"
+msgstr "Openingstijden"
+
+#: class-tp-opening-hours-admin.php:44
+msgid "Periodic"
+msgstr "Periodiek"
+
+#: class-tp-opening-hours-admin.php:48 class-tp-opening-hours-admin.php:191
+msgid "Special dates"
+msgstr "Bijzondere datums"
+
+#: class-tp-opening-hours-admin.php:52 class-tp-opening-hours-admin.php:307
+msgid "Settings"
+msgstr "Instellingen"
+
+#: class-tp-opening-hours-admin.php:94
+msgid "Periods"
+msgstr "Periodes"
+
+#: class-tp-opening-hours-admin.php:110 class-tp-opening-hours-admin.php:207
+msgid "Name"
+msgstr "Naam"
+
+#: class-tp-opening-hours-admin.php:114 class-tp-opening-hours-admin.php:406
+msgid "Period"
+msgstr "Periode"
+
+#: class-tp-opening-hours-admin.php:142
+#, php-format
+msgid "%1$s until %2$s"
+msgstr "%1$s t/m %2$s"
+
+#: class-tp-opening-hours-admin.php:171 class-tp-opening-hours-periods.php:25
+msgid "Add period"
+msgstr "Nieuwe periode"
+
+#: class-tp-opening-hours-admin.php:211 templates/table.php:18
+msgid "Date"
+msgstr "Datum"
+
+#: class-tp-opening-hours-admin.php:274 class-tp-opening-hours-special.php:21
+msgid "Add special date"
+msgstr "Nieuwe bijzondere datum"
+
+#: class-tp-opening-hours-admin.php:309
+msgid "Page"
+msgstr "Pagina"
+
+#: class-tp-opening-hours-admin.php:311
+msgid ""
+"Use the shortcode <code>[opening-hours]</code> in this page's content to "
+"show opening hours."
+msgstr ""
+"Gebruik de shortcode <code>[opening-hours]</code> in de content van deze "
+"pagina om de openingstijden te tonen."
+
+#: class-tp-opening-hours-admin.php:381
+msgid "Are you sure you want to remove this period?"
+msgstr "Weet je zeker dat je deze periode wilt verwijderen?"
+
+#: class-tp-opening-hours-admin.php:382
+msgid "Are you sure you want to remove this special date?"
+msgstr "Weet je zeker dat je deze bijzondere datum wilt verwijderen?"
+
+#: class-tp-opening-hours-admin.php:419
+msgid "From"
+msgstr "Van"
+
+#: class-tp-opening-hours-admin.php:431
+msgid "To"
+msgstr "T/m"
+
+#: class-tp-opening-hours-admin.php:563 class-tp-opening-hours-admin.php:769
+msgid "Leave empty to show a day as closed."
+msgstr "Laat leeg om deze dag als gesloten te tonen."
+
+#: class-tp-opening-hours-admin.php:619
+msgid "until"
+msgstr "t/m"
+
+#: class-tp-opening-hours-admin.php:679 class-tp-opening-hours-admin.php:692
+msgid "Special date"
+msgstr "Bijzondere datum"
+
+#: class-tp-opening-hours-day.php:40
+msgid "closed"
+msgstr "gesloten"
+
+#: class-tp-opening-hours-day.php:45
+msgid "o'clock"
+msgstr "uur"
+
+#: class-tp-opening-hours-periods.php:26
+msgid "Edit period"
+msgstr "Bewerk periode"
+
+#: class-tp-opening-hours-special.php:22
+msgid "Edit special date"
+msgstr "Bewerk bijzondere datum"
+
+#: class-tp-opening-hours-widget.php:10
+msgid "Shows opening hours of the next couple of days."
+msgstr "Toont openingstijden van de komende dagen."
+
+#: class-tp-opening-hours-widget.php:19
+msgid "Title"
+msgstr "Titel"
+
+#: templates/table-item.php:14 templates/widget.php:21
+msgid "today"
+msgstr "vandaag"
+
+#: templates/table.php:26
+msgid "Details"
+msgstr "Bijzonderheden"
+
+#: templates/widget.php:54
+msgid "View full calendar"
+msgstr "Bekijk volledige kalender"

@@ -1,0 +1,21 @@
+.tab-wrapper div.tab-content {
+  display: none; }
+  .tab-wrapper div.tab-content.active {
+    display: block; }
+
+.tp-periods table th.actions,
+.tp-special table th.actions {
+  width: 45px; }
+
+body.post-type-tp-periods .add-new-h2,
+body.post-type-tp-periods #delete-action,
+body.post-type-tp-periods #minor-publishing-actions,
+body.post-type-tp-periods #misc-publishing-actions,
+body.post-type-tp-special .add-new-h2,
+body.post-type-tp-special #delete-action,
+body.post-type-tp-special #minor-publishing-actions,
+body.post-type-tp-special #misc-publishing-actions {
+  display: none; }
+body.post-type-tp-periods #major-publishing-actions,
+body.post-type-tp-special #major-publishing-actions {
+  border-top: none; }
