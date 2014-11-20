@@ -66,9 +66,12 @@ class TP_Opening_Hours_Frontend {
 		/**
 		 * Show template
 		 */
-		$template = self::get_template( 'archive.php' );
+		ob_start();
 
+		$template = self::get_template( 'archive.php' );
 		include( $template );
+
+		return ob_get_clean();
 	}
 
 	/**
