@@ -20,7 +20,7 @@
 						if( 0 === $i )
 							_e( 'today', 'tp-opening-hours' );
 						else
-							echo date_i18n( 'l d-m-Y', $this_day ); 
+							echo date_i18n( 'l', $this_day ); 
 					?>
 				</span>
 
