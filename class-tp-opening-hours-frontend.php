@@ -85,7 +85,7 @@ class TP_Opening_Hours_Frontend {
 		$timestamp = strtotime( $this_day );
 		$today = false;
 
-		if( $this_day === date( 'd-m-Y' ) )
+		if( $this_day === date( 'j-m-Y' ) )
 			$today = true;
 
 		$classes = array( 'tp-date-row' );
