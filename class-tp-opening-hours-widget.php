@@ -21,10 +21,10 @@ class TP_Opening_Hours_Widget extends WP_Widget {
 				<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $title; ?>" />
 			</label>
 		</p>
-
-		<?php do_action( 'tp-opening-hours_widget-after-options' ); ?>
 		
 		<?php
+
+		do_action( 'tp-opening-hours_widget-after-options' );
 	}
 	
 	function widget( $args, $instance ) {
