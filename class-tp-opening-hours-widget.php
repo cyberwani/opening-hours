@@ -24,7 +24,7 @@ class TP_Opening_Hours_Widget extends WP_Widget {
 		
 		<?php
 
-		do_action( 'tp-opening-hours_widget-after-options' );
+		do_action( 'tp-opening-hours_widget-after-options', $this, $instance );
 	}
 	
 	function widget( $args, $instance ) {
@@ -40,11 +40,11 @@ class TP_Opening_Hours_Widget extends WP_Widget {
 			/**
 			 * Display widget template
 			 */
-			do_action( 'tp-opening-hours_widget-before-content' );
+			do_action( 'tp-opening-hours_widget-before-content', $this, $instance );
 
 			include( TP_Opening_Hours_Frontend::get_template( 'widget.php' ) );
 
-			do_action( 'tp-opening-hours_widget-after-content' );
+			do_action( 'tp-opening-hours_widget-after-content', $this, $instance );
 
 		echo $after_widget;
 	}
