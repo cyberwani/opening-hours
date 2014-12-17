@@ -38,7 +38,11 @@ class TP_Opening_Hours_Widget extends WP_Widget {
 			/**
 			 * Display widget template
 			 */
+			do_action( 'tp-opening-hours_widget-before-content' );
+
 			include( TP_Opening_Hours_Frontend::get_template( 'widget.php' ) );
+
+			do_action( 'tp-opening-hours_widget-after-content' );
 
 		echo $after_widget;
 	}
